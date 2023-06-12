@@ -1,0 +1,103 @@
+.action {
+    align-items: center;
+    justify-content: center;
+    width: 660px;
+    height: 730px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: rgb(54, 53, 53);
+    margin-left: 420px;
+    opacity: 0.9;
+}
+
+.body {
+    background-image: url("paymentbackgroundimg.jpg");
+}
+
+img {
+    border-radius: 6px;
+}
+
+#He {
+    color: rgb(5, 56, 56);
+    font-style: italic;
+    font-weight: bolder;
+    font-display: 100px;
+    background-color: aliceblue;
+    margin-top: 0%;
+}
+
+#igender {
+    margin-right: 170px;
+}
+
+#con {
+    margin-right: 80px;
+}
+
+.all {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 800;
+}
+
+.btn {
+    height: 50px;
+    width: 175px;
+    background-color: rgb(236, 186, 186);
+    border-radius: 13px;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(131, 121, 244);
+    color: white;
+    font-size: larger;
+}
+
+.option3 {
+    margin-right: 10px;
+}
+
+#card {
+    margin-right: 32px;
+}
+
+#exp {
+    margin-right: 62px;
+}
+
+#type {
+    margin-right: 67px;
+}
+
+.footer {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.help {
+    margin-left: 160px;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+.help:hover {
+    background-color: blueviolet;
+    font-size: larger;
+}
+
+.select {
+    width: 100px;
+    height: 100px;
+}
+
+.footer: hover {
+    font-size: large;
+}

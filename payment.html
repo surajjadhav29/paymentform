@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animation.css">
+
+    <title>Payment</title>
+</head>
+
+<body class="body">
+
+
+    <form class="action">
+
+        <img src="visaimg.jpeg" width="200" height="127">
+        <img src="card1img.jpeg" alt="Girl in a jacket" width="200" height="127">
+        <img src="card2img.jpeg" alt="Girl in a jacket" width="250" height="127">
+        <label>
+            <input type="checkbox" name="theme" id="toggle-theme">
+            <span class="btn"></span>
+            <i class="fas fa moon"></i>
+
+        </label>
+
+        <h1 class="all" id="He"> Payment Mathod </h1>
+
+        <p class="all" onsubmit="getData(event)" id="inputbox">
+            Name*: <input type="text" name="Name" placeholder="Entre Name" required>
+
+
+        </p>
+
+
+        <p class="all" id="con">Contact information:<input type="number" name="Number" required></P>
+        <div class="gender">
+            <p class="all">
+                <legend id="igender">Gender:</legend>
+                Male <input type="radio" name="gender"> female <input type="radio" name="gender">
+
+
+            </p>
+        </div>
+
+        <p class="all">Email*: <input type="email" name="Email" id="Email" placeholder="ex.sj75@gmail.com0" required> </p>
+        <P class="all">Pincode :<input type="number" name="Pincode" id="Pincode" required> </P>
+        <h2 class="all" id="He">Payment Information</h2>
+
+        <p class="all" id="type">card type :<select name="card_type" id="card_type" required> 
+            <option value="" class="select">--select a card-- </option>
+            <option value="visa">visa</option>
+            <option  value="SBI">SBI</option>
+            <option value="UCO">UCO</option>
+            <option  value="master_card">master_card</option>
+        </select> </p>
+        <p class="all" id="card"> Card num* : <input type="card_number" name="card_number" id="card_number" required></p>
+        <p class="all" id="exp">
+            Expiration Date*:<input type="date " name="exp_date" id="exp_date" required>
+        </p>
+        <p class="all">
+            CVV *:<input type="password" name="cvv" id="cvv" required></p>
+
+        <button class="btn" onclick="suraj()">Conform payment</button>
+        <p class="help">Help</p>
+
+        <img src="">
+        <div class="footer">
+            <img onclick="Insta()" id="demo" src="insta.img.jpeg" height="20" width="20">
+            <img src="twitter.img.jpeg" height="20" width="20">
+            <img src="facebook.img.jpeg" height="20" width="20">
+            <img src="google.img.jpeg" height="20" width="20">
+
+
+        </div>
+
+    </form>
+    <script src="payment.js">
+    </script>
+
+</body>
+
+</html>
